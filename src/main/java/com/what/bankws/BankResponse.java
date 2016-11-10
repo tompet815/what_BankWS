@@ -1,7 +1,8 @@
+
 package com.what.bankws;
 
-public class BankResponse {
 
+public class BankResponse {
     private double interestRate;
     private String ssn;
 
@@ -25,5 +26,6 @@ public class BankResponse {
     public void setSsn(String ssn) {
         this.ssn = ssn;
     }
-
+    
+    
 }
